@@ -1,15 +1,20 @@
-import React from 'react';
-import './index.css';
+import * as React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import {BookList} from './components/Books'
 
+//routes
 
-const Home = () => {
-    return ( 
-        <div>
-          <a target="_blank"  className="styles_link" stye>embarcar no foguete
-          <img src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Ficons%2Farrow-right-bg-purple.svg&w=32&q=100"/>
-          </a>
-        </div>
-     );
-}
- 
-export default Home;
+const App = () => {
+  return (
+    <div className="App">
+      <h1>Welcome to React Router!</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/booklist" element={<BookList />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default App;
