@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BookList } from './Books';
+import  Home  from './App';
 import './index.css';
 
-ReactDOM.render(<BookList />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 
