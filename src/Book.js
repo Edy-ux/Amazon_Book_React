@@ -2,7 +2,7 @@ import React from 'react';
 
 const Book = ({ img, title, author, children }) => {
   const sampleHandler = (author) => {
-    alert(`O autor deste livro é ${author}`);
+    alert(`O titulo deste livro é ${title}`);
   };
   return (
     <article className="book">
