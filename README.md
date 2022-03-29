@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/44e0541d-628d-45ba-9ca5-e1b8587fef6e/deploy-status)](https://app.netlify.com/sites/amazon-books-basicapp/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

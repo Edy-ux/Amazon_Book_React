@@ -40,6 +40,11 @@ body {
   font-weight:700 ;
 }
 
+.stars-rating {
+   display: flex;
+  
+}
+
 .btn {
   margin-top: 0.5rem;
   padding: 5px 10px 5px 10px;
